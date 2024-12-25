@@ -1,0 +1,58 @@
+body {
+    background-color:#151522;
+    overflow: hidden;
+      display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #001a33 60%, #000000);
+    overflow: hidden;
+    color: white;
+  }
+  
+  
+  svg{
+    width:90%;
+    height:90%;
+    visibility:hidden;
+   
+  }
+  .sparkle{
+    /* mix-blend-mode:luminosity */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #222;
+    overflow: hidden;
+  }
+
+  /* Snowfall styling */
+  .snowflake {
+    position: absolute;
+    top: -10px;
+    color: white;
+    font-size: 1.5em;
+    user-select: none;
+    pointer-events: none;
+    animation: fall linear infinite;
+  }
+
+  @keyframes fall {
+    to {
+      transform: translateY(100vh);
+    }
+  }
+  
